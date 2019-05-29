@@ -4,69 +4,47 @@
 
     <meta charset="utf-8">
     <Title>Examen_html</Title>
+    <link rel="stylesheet" href="main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 <body>
     <main>
         <header>
-            <div>
+            <div id="logo_et_menu">
 
-                <div>
-                    <p><strong>gretacom</strong></br>green coding</p>
+                <div id="logo">
+                    <p><strong>gretacom</strong><br><small><em>green coding</em></small></p>
                     <img src="gretacom/images/logo.jpg" alt="Logo greta"/>
                 </div>
 
+                <div id='burger'>
+                    <div class='burger'></div>
+                    <div class='burger'></div>
+                    <div class='burger'></div>
+                </div>
+
                 <nav>
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt><a href= ''>A PROPOS</a></dt>
+                    <ul id="menu_cache">
 
-                            </dl>
-                        </li>
+                        <li><a href= ''>A PROPOS</a></li>
+                        <li><a href=''>SOLUTIONS</a></li>
+                        <li><a href='' >PORTFOLIO</a></li>
+                        <li><a href=''>CLIENTS</a></li>
+                        <li><a href=''>BLOG</a></li>
+                        <li><a href=''>JOB</a></li>
+                        <li><a href=''>CONTACT</a></li>
 
-                        <li>
-                            <dl>
-                                <dt><a href=''>SOLUTIONS</a></dt>
-
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><a href='#' >PORTFOLIO</a></dt>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><a href=''>CLIENTS</a></dt>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><a href=''>CLIENTS</a></dt>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><a href=''>BLOG</a></dt>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><a href=''>JOB</a></dt>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><a href=''>CONTACT</a></dt>
-                            </dl>
-                        </li>
                     </ul>
                 </nav>
             </div>
 
-            <img src="gretacom/images/header.jpg" alt='image header'/>
+            <div id="image_header">
+                <img src="gretacom/images/header.jpg" alt='image header'/>
+                <p id="texte1_image">L'AGENCE WEB <br>DU GRETA...</p>
+                <p id="texte2_image">C'EST NOUS !</p>
+            </div>
 
         </header>
 
@@ -79,28 +57,34 @@
 
             <section>
                 <div>
+
                     <img src="gretacom/images/analyse.jpg" alt='image analyse'/>
-                    <p>ANALYSE</p>
+                    <p class="texte">ANALYSE</p>
+
                 </div>
 
                 <div>
+
                     <img src="gretacom/images/creation_design.jpg" alt='image design'/>
-                    <p>CREATION DESIGN</p>
+                    <p class="texte">CREATION<br>DESIGN</p>
                 </div>
 
                 <div>
+
                     <img src="gretacom/images/web_dev.jpg" alt='image dev'/>
-                    <p>WEB DEV</p>
+                    <p class="texte">WEB<br>DEV</p>
                 </div>
 
                 <div>
+
                     <img src="gretacom/images/green_coding.png" alt='image green coding'/>
-                    <p>GREEN CODING</p>
+                    <p class="texte">GREEN<br>CODING</p>
                 </div>
 
                 <div>
+
                     <img src="gretacom/images/edition.jpg" alt='image edition'/>
-                    <p>EDITION</p>
+                    <p class="texte">EDITION</p>
                 </div>
 
 
@@ -118,8 +102,6 @@
     </main>
 
 
-
-
-
+    <script src="main.js"></script>
 </body>
 </html>
